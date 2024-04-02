@@ -18,20 +18,5 @@ namespace ClassLibrary1.Clases
             Nota = nota;
             Materias = materias;
         }
-
-        public double calcularPromedio()
-        {
-            return Nota;
-        }
-
-        public void enviarTarea()
-        {
-
-        }
-
-        public void registarAsistencia()
-        {
-
-        }
     }
 }
