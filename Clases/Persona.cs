@@ -11,12 +11,13 @@ namespace ClassLibrary1.Clases
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
-
+        public int Dni { get; set; }
         public Persona(string firstName, string lastName, int age)
         {
             FirstName = firstName;
             LastName = lastName;
             Age = age;
+            Dni = 0;
         }
     }
 }
