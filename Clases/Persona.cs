@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1.Clases
 {
-    public class Persona
+    abstract class Persona
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
