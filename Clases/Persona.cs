@@ -12,12 +12,17 @@ namespace ClassLibrary1.Clases
         public string LastName { get; set; }
         public int Age { get; set; }
         public int Dni { get; set; }
-        public Persona(string firstName, string lastName, int age)
+        public Persona(string firstName, string lastName, int age, int dni)
         {
             FirstName = firstName;
             LastName = lastName;
             Age = age;
-            Dni = 0;
+            Dni = dni;
+        }
+
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName}";
         }
     }
 }
