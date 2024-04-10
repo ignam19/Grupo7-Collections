@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1.Clases
 {
-    public abstract class Lengua : Materias
+    public class Lengua : Materias
     {
 
     }
